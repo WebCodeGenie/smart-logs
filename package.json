@@ -1,0 +1,38 @@
+{
+  "name": "smart-logs",
+  "version": "2.0.2",
+  "description": "**smart-logs** is used to create multiple files based on label, base of this package is [winston](https://www.npmjs.com/package/winston), you can integrate other winston transporter also.",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebCodeGenie/smart-logs.git"    
+  },
+  "keywords": [
+    "winston",
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "bunyan",
+    "pino",
+    "loglevel",
+    "tools",
+    "json",
+    "stream",
+    "file-logger"
+  ],
+  "author": "Rakesh Tholiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebCodeGenie/smart-logs/issues"
+  },
+  "homepage": "https://github.com/WebCodeGenie/smart-logs#readme",
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "dependencies": {
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
